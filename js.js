@@ -8,8 +8,8 @@ function iniciar(){
 
 }
 reconhecimento.onresult=function(evento){
-    conteudo=evento.results[0][0].transcript.toLowerCase;
-if(conteudo=="selfie"){
+    conteudo=evento.results[0][0].transcript.toLowerCase();
+if(conteudo=="foto"){
     fala();
 }
 }
